@@ -2,11 +2,10 @@
 # This script is daiplaying a text 20 times using while loop
 text="Best School"
 i=1
-while ((i<=10)); do
+while ((i<10)); do
     if [[ $i == 9 ]]; then
 	echo "Hi"
-    else
-	echo "$text"
     fi
     ((i += 1))
+    echo "$text"
 done
