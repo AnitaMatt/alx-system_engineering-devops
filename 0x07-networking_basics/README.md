@@ -10,23 +10,23 @@ So the OSI model is a conceptual model that characterizes the communication func
 
 OSI MODEL
 
-Data   	   *Application		 FTP, HTTP, SMTP
-				 Data Generration
+Data   	   *Application		 *FTP, HTTP, SMTP
+				 *Data Generration
 	   
-Data	   *Presentation	 Jpeg, Mpeg, Gif
-	   			 Encrytion & formatting
+Data	   *Presentation	 *Jpeg, Mpeg, Gif
+	   			 *Encrytion & formatting
 	   
-Data	   *Session		 Apple talk
-	   			 Establish connection
+Data	   *Session		 *Apple talk
+	   			 *Establish connection
 	   
-Segments   *Transport		 TCP, UDP
-	   			 Deleivey & Sequence
+Segments   *Transport		 *TCP, UDP
+	   			 *Deleivey & Sequence
 	   
-Packets	   *Network		 IP, IFX, ICMP		Router
-	   			 Routing to Destination
+Packets	   *Network		 *IP, IFX, ICMP		*Router
+	   			 *Routing to Destination
 	   
-Frame	   *Data link		 PPP, Ethernet		Switch, Bridge
-	   			 Local Network
+Frame	   *Data link		 *PPP, Ethernet		*Switch, Bridge
+	   			 *Local Network
 	   
-Bits	   *Physical		 Ethernet, USB		Hub, Repeater
-	   			 Access Media
+Bits	   *Physical		 *Ethernet, USB		*Hub, Repeater
+	   			 *Access Media
