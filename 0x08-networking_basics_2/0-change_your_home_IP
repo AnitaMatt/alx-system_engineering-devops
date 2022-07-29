@@ -1,4 +1,4 @@
-#!/usr/env bash
+#!/usr/bin/env bash
 # local host: 127.0.0.2
 # facebook : 8.8.8.8
 # change the following ip address to the specified above
