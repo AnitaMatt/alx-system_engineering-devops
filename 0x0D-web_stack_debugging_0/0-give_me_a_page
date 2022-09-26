@@ -3,4 +3,4 @@
 # set server name to determine the servers fully qualified domain name
 # then start apache2
 echo "ServerName localhost" >> /etc/apache2.conf
-service apache2 start
+sudo service apache2 start
